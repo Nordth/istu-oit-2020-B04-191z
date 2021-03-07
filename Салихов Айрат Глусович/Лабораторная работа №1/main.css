@@ -253,7 +253,6 @@ body {
     }
 
     .nav-link:hover {
-        background: chartreuse;
         color: black;
     }
 

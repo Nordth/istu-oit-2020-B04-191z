@@ -1,0 +1,63 @@
+#selectedElements {
+	margin: 0 0 5px;
+}
+
+.field {
+	display: flex;
+	justify-content: center;
+	width: 1000px;
+	margin: auto;
+	border: 1px solid #000;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.creator {
+	width: 50%;
+	padding: 20px;
+	border-right: 1px solid #000;
+}
+.inputer {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 20px;
+}
+
+.btn {
+	margin: 10px 0;
+	padding: 5px;
+}
+.input {
+	width: 480px;
+	height: 17px;
+	margin-bottom: 10px;
+}
+
+.element {
+	display: flex;
+	justify-content: space-between;
+	height: 20px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	resize: none;
+	overflow: hidden;
+}
+
+.documentArea {
+	padding: 20px;
+	margin: 30px;
+}
+
+
+@media print {
+	.field {
+		display: none;
+	}
+} 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Шаблонизатор документов</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="field">
+		<div class="creator">
+			<div id="selectedElements"></div>
+			<form class="form">
+				<select id="list">
+					<option value="h1">Заголовок первого уровня</option>
+					<option value="h2">Заголовок второго уровня</option> 
+					<option value="p">Текст</option> 
+					<option value="img">Изображение</option> 
+				</select>
+				<input class="btn" type="button" onclick="addElement()" value="Добавить элемент"/>
+			</form>
+		</div>
+
+		<div class="inputer">
+			<div class="propElements"></div>
+			<input class="btn" type="button" value="Посмотреть документ" onclick="createDocument()">
+			<input class="btn" type="button"  value="Вывести на печать" onclick="window.print()">
+		</div>
+	</div>
+	<div class="documentArea"></div>
+<script type='text/javascript' src='script.js'></script>
+</body>
+</html>  

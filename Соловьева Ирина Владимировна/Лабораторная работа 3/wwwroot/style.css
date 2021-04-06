@@ -1,0 +1,171 @@
+body
+{
+	height: auto;
+	background: linear-gradient(to bottom, #FCDEC8, #FBF0E7, #DBC8B9, #B2A49A);
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+header
+{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#FFFFFF;
+	height: 170px;
+	margin: 0 auto;
+	border: 1px solid #000;
+   
+} 
+
+footer{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+	border: 1px solid #000;
+	background:#FFFFFF;
+	text-align: center;
+	height: 50px;
+}
+
+.logo 
+{
+	height: auto;
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.head 
+{
+	height: 170px;
+	width: 150px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+#general
+{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#FFFFFF;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+.text
+{
+	font-size: 25px;
+	text-decoration: none;
+	text-align: justify;
+}
+
+.text a:hover {
+	color: #B2A49A;  
+	text-decoration: underline; 
+}
+
+.menu-main{
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	float: right;  
+	font-style: italic;	
+} 
+
+.menu-main li{
+	border: 1px solid #B2A49A;
+	width: 270px;
+} 
+
+.menu-main li:hover{
+	background: #FBF0E7;
+	color:green;
+	list-style-type: none;
+}
+.menu-main a{
+	width: 300px;
+	color:#985D84;
+	text-decoration: none;
+}
+
+.plant{
+	font-size: 60px;
+	padding-top: 50px;
+	padding-left: 10px;
+	text-align: left;
+	font-family: serif;
+    font-style: italic;
+}
+  
+nav li {
+	display: block;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+  }
+
+footer p {
+	padding-top: 5px; 
+}
+
+.first{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.image{
+	float: left;
+	margin: 10px;
+}
+
+.two-images{
+	display: flex;
+	max-width: 1024px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.left, .right{
+	width: 350px;
+	height: 350px;
+	margin: 30px;		
+}
+
+.left{
+	border: 10px solid #CFBEC9;
+}
+
+.right{
+	border: 10px solid #FFD2EC;
+}
+
+h1{
+	padding-left: 250px;
+	margin-bottom: 70px;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;	
+}
+
+p{
+	font-size: 18px;
+}
+  
+
+.name{
+	text-align: center;
+}
+

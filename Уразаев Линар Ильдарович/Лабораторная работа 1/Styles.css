@@ -1,0 +1,154 @@
+body
+{
+	height:400px; 
+	background-image: url(http://pomelnikov.com/images/design/50-factures/Facture13.png),url(http://pomelnikov.com/images/design/50-factures/bg.svg);
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+	align-items: center;
+    background: white;
+    position: relative;
+	min-width: 1024px;
+}
+.logo{
+	text-align: center;
+    width: calc(50% + 35px);
+    height: 60px;
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.logo-name{
+    text-decoration: none;
+}
+.logo-name-img{
+
+    height: 30px;
+}
+.logo-name-text{
+    color: balck;
+    font-size: 19px;
+    text-align: center;
+}
+.menu{
+	display: flex;
+	}
+
+.menu-item{
+	box-sizing: border-box;
+	display: block;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    padding: 25px 43px;
+	border: 1px solid black;
+}
+#content
+{
+    text-align: center;
+    max-width: 1024px;
+	margin: 0 auto;
+    width: 1024px;
+    background-color: white;
+    border: 1px solid black;
+}
+#content p
+{
+    text-align: justify;
+}
+#content .textImg
+{
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+#content table
+{
+    margin: 10px;
+    border-collapse: collapse;
+}
+#content th, td
+{
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#content ul, ol
+{
+    text-align: left;
+}
+
+#content .image
+{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+footer
+{
+	background: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.header_fixed{
+	position:fixed;
+	width: 100%;
+	
+}
+
+@media (max-width:1023px){
+    .header_burger{
+        display: block;
+        width: 60px;
+        height: 25px;
+        position: relative;
+        float: right;
+        margin: 35px;
+    }
+    .header_burger span, 
+    .header_burger:after, 
+    .header_burger:before{
+        height: 4px;
+        width: 100%;
+        position: absolute;
+        background: red;
+    }
+    .header_burger span{
+        top: 0;
+    }
+    .header_burger:after, 
+    .header_burger:before{
+        content: '';
+    }
+    .header_burger:after{
+        bottom: 0;
+    }
+    .header_burger:before{
+        top: 11px;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+        margin: 100px 0px;
+        background-color: white;
+        display: none;
+    }
+    .menu-item{
+        padding: 30px 10px;
+        width: 287px;
+        text-align: left;
+    }
+    .menu.open_menu{
+        display: block;
+    }
+}
